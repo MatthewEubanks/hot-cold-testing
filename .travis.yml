@@ -2,13 +2,13 @@ language: node_js
 node_js: node
 cache:
   directories:
-    - node_modules
+  - node_modules
 env:
-  - CI=true
-  deploy:
+- CI=true
+deploy:
   provider: heroku
   api_key:
-    secure: cc338287-cdc4-4419-8741-44ca15313b6a
-  app: safe-ravine-15133
+    secure: HqqW03/hglclxM/ktlzu6c2fcw2WwMmrRG7WXzgj+63ai1SNRr8uN2p8Ly0KQjHsYeYijD21W98srfUmwUdyldfZ8/WtE9ILZG2ZpZ7qXt1SgEAaueHW0bz7Q3+Txj/Qld5zq/tvPAfbc9d7Orm1YGKkhALIkcX7U6hK5hkkh7xccAEhy59pN9oWJj9assAiRSavn6E0Ev8ls09hCAjOoOTWM+3JTxbUB5xJaKf4vZjM33w5//3r6r47r7bthIkRq6Iy1AGSuQ/SjxxbOa7Et4RqBMyFPkeeuS0+NPheZwYVfrannJOZcFZQ3a5JrrLRvSyPigBWr7TcuhNgKbquQq/VVtxDriWLMolBN8o6Rzv2gMHQCS4rmgbth2mAnZ6FWbXX8mVSlp7/tKhRugccRyIEAMLdbqyh1ABC9McTe04k7B16LEuKdwJbaHpfWoh4qdJXiKtyp/E5CIycIJqRyz+8JMZP01zMFtmJJT0he7YEYmHz/rnUigXTx4Kb1tKzjLmTukQJ3Lgcw6MESz4uzbAbGIdAtKiI7fpWvihK2D70gLN0czGzgKwxxvzQoBdn516+iLNJAjSu18YvA1ugqoZTeEp5hkfkfQLvWi3/JdyCT40SR41YgF4xNtydCbbl75d4h6vH0Sqmcaw8VUjKv5ZwqqRJNyYEdl5uz9Famn0=
+  app: ancient-sea-27017
   on:
     repo: matteprg/hot-cold-testing
