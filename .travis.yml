@@ -5,3 +5,10 @@ cache:
     - node_modules
 env:
   - CI=true
+  deploy:
+  provider: heroku
+  api_key:
+    secure: cc338287-cdc4-4419-8741-44ca15313b6a
+  app: safe-ravine-15133
+  on:
+    repo: matteprg/trello-testing
